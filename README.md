@@ -1,8 +1,6 @@
 # Barbearia Alura 💇
-
 Esse foi um projeto desenvolvido durante a primeira parte da Formação Front-end da Alura!
 O site contém as páginas de: <strong>home</strong>, <strong>produtos</strong> e <strong>contato</strong>.
-
 A página <strong>home</strong> possui:
 <ul>
   <li>Informações sobre a barbearia Alura;</li>
@@ -53,28 +51,19 @@ Já a última página de <strong>Contatos</strong> possui:
                 <fieldset>
                     <label for="nome-sobrenome">Nome e Sobrenome</label>
                     <input type="text" id="nome-sobrenome" class="input-padrao" required>
-
                     <label for="telefone">Telefone</label>
                     <input type="tel" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX"required>
-
                     <label for="email">E-mail</label>
                     <input type="email" id="email" class="input-padrao" placeholder="seuemail@seudomínio.com" required>
-
                     <label for="mensagem">Mensagem</label>
                     <textarea cols="75" rows="10" id="mensagem" class="input-padrao" required></textarea>
                 </fieldset>
-
                 <fieldset>    
                     <legend>Como prefere nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
-
-
                     <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-
-
                     <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
                 </fieldset>
-
                 <fieldset>
                     <legend>Qual horário prefere ser atendido?</legend>
                     <select>
@@ -88,7 +77,6 @@ Já a última página de <strong>Contatos</strong> possui:
 
                 <input type="submit" value="Enviar formulário" class="enviar">
             </form>
-
             <table>
                 <thead>
                     <tr>
@@ -160,12 +148,10 @@ Já a última página de <strong>Contatos</strong> possui:
                 <h1 class="titulo-principal" id="conteudoPrincipal">Sobre a Barbearia Alura</h1>
                 <img class="utensilios" src="assets/img/utensilios.jpg" alt="Utensilios de um barbeiro">
                 <h2> Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</h2>
-
                 <h2 id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></h2>
 
                 <h2>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</h2>
             </section>
-
             <section class="mapa">
                 <h2 class="titulo-principal">Nosso estabelecimento</h2>
                 <h3>Nosso estabelecimento está localizado no coração da cidade.</h3>
